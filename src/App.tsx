@@ -1,11 +1,11 @@
 import { Box } from "@mui/material"
-import BasicMenu from "./components/Menu"
+import Home from "./components/Home"
 
 function App() {
 
   return (
     <Box sx={{ backgroundColor: "darkgreen", height: "100vh" }}>
-      <BasicMenu />
+      <Home />
     </Box>
   )
 }
