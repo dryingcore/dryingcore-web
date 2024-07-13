@@ -1,4 +1,4 @@
-import { Box } from "@mui/material"
+import { Box, Container } from "@mui/material"
 import BasicMenu from "./Menu"
 
 export default function Home() {
@@ -8,9 +8,9 @@ export default function Home() {
                 <BasicMenu />
             </Box>
 
-            <Box>
+            <Container>
                 <h1>Home</h1>
-            </Box>
+            </Container>
         </>
     )
 }
