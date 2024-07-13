@@ -4,7 +4,7 @@ import Home from "./components/Home"
 function App() {
 
   return (
-    <Box sx={{ backgroundColor: "darkgreen", height: "100vh" }}>
+    <Box sx={{ backgroundImage: "url(../public/)", backgroundSize: "cover", width: "100vw", height: "100vh" }}>
       <Home />
     </Box>
   )
